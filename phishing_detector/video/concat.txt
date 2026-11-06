@@ -1,0 +1,8 @@
+file 'C:/Users/Ce pc/Desktop/amon_folder/phishing_detector/video/media/videos/reseau_neurones/1080p30/N01_Neurone.mp4'
+file 'C:/Users/Ce pc/Desktop/amon_folder/phishing_detector/video/media/videos/reseau_neurones/1080p30/N02_Reseau.mp4'
+file 'C:/Users/Ce pc/Desktop/amon_folder/phishing_detector/video/media/videos/reseau_neurones/1080p30/N03_Embedding.mp4'
+file 'C:/Users/Ce pc/Desktop/amon_folder/phishing_detector/video/media/videos/reseau_neurones/1080p30/N04_Attention.mp4'
+file 'C:/Users/Ce pc/Desktop/amon_folder/phishing_detector/video/media/videos/reseau_neurones/1080p30/N05_FeedForward.mp4'
+file 'C:/Users/Ce pc/Desktop/amon_folder/phishing_detector/video/media/videos/reseau_neurones/1080p30/N06_Tete.mp4'
+file 'C:/Users/Ce pc/Desktop/amon_folder/phishing_detector/video/media/videos/reseau_neurones/1080p30/N07_Apprentissage.mp4'
+file 'C:/Users/Ce pc/Desktop/amon_folder/phishing_detector/video/media/videos/reseau_neurones/1080p30/N08_Demo.mp4'

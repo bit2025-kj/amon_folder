@@ -1,0 +1,661 @@
+EMAILS POUR LE TEST EN DIRECT - détecteur de phishing
+==============================================================================
+Mode d'emploi : copier le texte d'un email (entre deux cadres), le coller dans
+l'onglet « Analyser » de l'interface (python app.py), cliquer sur Analyser.
+
+Les emails des parties 1, 2 et 4 viennent du JEU DE TEST (test.csv) : le modèle
+ne les a JAMAIS vus pendant l'entraînement. Ils sont donnés dans leur version
+d'origine (avant normalisation), plus lisible.
+Les verdicts « attendus » ont été calculés avec les modèles actuels :
+v2 = artifacts/phishing_model.pt (seuil 0.979),
+v1 = artifacts/v1/phishing_model.pt (seuil 0.881).
+
+Remarque : dans ce dataset, la classe « phishing » contient aussi beaucoup de
+spam publicitaire (crédits, casinos, promotions), d'où le style de la partie 2.
+
+  Partie 1 : emails légitimes du dataset ............... L1 à L8
+  Partie 2 : emails de phishing / spam du dataset ...... P1 à P8
+  Partie 3 : emails transactionnels (banque, colis...) . T1 à T7  (v1 -> v2)
+  Partie 4 : cas difficiles et erreurs ................. D1 à D6
+  Partie 5 : les deux emails bancaires testés en direct  R1 et R2
+
+
+##############################################################################
+# PARTIE 1 : EMAILS LÉGITIMES DU DATASET (jeu de test)
+##############################################################################
+
+==============================================================================
+EMAIL L1 · vraie classe : LÉGITIME · source : test.csv, ligne 479
+v2 (seuil 0.979) : légitime (0.0 %) -> juste   |   v1 (seuil 0.881) : légitime (0.0 %)
+==============================================================================
+
+I have about 60G of data which I need to copy from one disk to another.
+However, I'm not sure how I should best copy it. The problem is the bulk of
+the data is images and most of these image have two directory entries i.e.
+there is a hard link to each file. If I copy them using cp -a or my usual
+favourite of find .|cpio -pmd other_dir it's going to copy each file twice,
+which is not what I want. dump / restore would take care of this if the
+source filesystem wasn't reiserfs :-( Any suggestions ?
+Niall-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+
+==============================================================================
+EMAIL L2 · vraie classe : LÉGITIME · source : test.csv, ligne 926
+v2 (seuil 0.979) : légitime (0.0 %) -> juste   |   v1 (seuil 0.881) : légitime (0.0 %)
+==============================================================================
+
+Hi,all:Does anyone know how to list the biggest file in my
+root directory?or the second biggest ..etc...Because I want to find out what is the reason cause my
+root all most full.The system is Solaris 8 Sparc.Thanks !!!__________________________________________________
+Do You Yahoo!?
+Yahoo! Finance - Get real-time stock quotes
+http://finance.yahoo.com-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+
+==============================================================================
+EMAIL L3 · vraie classe : LÉGITIME · source : test.csv, ligne 752
+v2 (seuil 0.979) : légitime (0.0 %) -> juste   |   v1 (seuil 0.881) : légitime (0.0 %)
+==============================================================================
+
+In a slightly old news story, it turns out the Chinese government has banned
+all access to the Google and AltaVista search engines.http://www.nytimes.com/2002/09/04/international/asia/04BEIJ.html
+http://www.bayarea.com/mld/bayarea/business/3996218.htm
+http://news.bbc.co.uk/1/hi/technology/2233229.stm
+http://news.bbc.co.uk/1/hi/technology/2238236.stmThe reason appears to be the Google cache feature. I can only imagine the
+Internet Archive will soon follow, if it isn't already blocked.Seems that governments do have some power over the Web, after all.- Jim
+
+
+==============================================================================
+EMAIL L4 · vraie classe : LÉGITIME · source : test.csv, ligne 1685
+v2 (seuil 0.979) : légitime (0.0 %) -> juste   |   v1 (seuil 0.881) : légitime (0.0 %)
+==============================================================================
+
+On Fri, 04 Oct 2002 16:07:12 -0700
+Ben Liblit  wrote:> So if your fonts look ugly, lack of bytecode hinting is *not* the cause.Well you are right, sorry, I didn't have any better idea yesterday late in
+the evening.
+The fonts are ugly only inside of gnome2 and clean for gnome1 apps, if
+antialiasing is disabled. 
+This is difficult to understand for me.--
+regards from Germany
+                   Matthias
+      _______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+
+==============================================================================
+EMAIL L5 · vraie classe : LÉGITIME · source : test.csv, ligne 151
+v2 (seuil 0.979) : légitime (0.0 %) -> juste   |   v1 (seuil 0.881) : légitime (0.0 %)
+==============================================================================
+
+Did someone invert the spam filters? I'm getting almost nothing but spam on
+fork now...- Adam L. "Duncan" Beberg
+  http://www.mithral.com/~beberg/
+  beberg@mithral.comhttp://xent.com/mailman/listinfo/fork
+
+
+==============================================================================
+EMAIL L6 · vraie classe : LÉGITIME · source : test.csv, ligne 1244
+v2 (seuil 0.979) : légitime (0.0 %) -> juste   |   v1 (seuil 0.881) : légitime (0.0 %)
+==============================================================================
+
+FYI,I modified the Mandrake package a few months ago -
+rather a nightmare to package, I must say. Some
+stability issues but that might be my flaky ATI
+drivers.My Linux box is sitting in storage this summer though,
+so I don't have the .spec with me.Anyone else tried running Falcon's Eye on Red Hat?Regards,Michel --- Harri Haataja 
+wrote: > Another thing I see in debian but not in my
+RH
+> boxen.
+> 
+> http://falconseye.sourceforge.net/
+> 
+> It's a GL(?) interface to nethack :)
+> 
+> -- 
+> "And don't even think of quoting me out of context
+> ;)"
+> 	-- Michael Hinz in the Monastery
+> 
+> 
+> _______________________________________________
+> RPM-List mailing list 
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list __________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+
+==============================================================================
+EMAIL L7 · vraie classe : LÉGITIME · source : test.csv, ligne 333
+v2 (seuil 0.979) : légitime (0.0 %) -> juste   |   v1 (seuil 0.881) : légitime (0.0 %)
+==============================================================================
+
+John P. Looney wrote:
+>>There is absolutely no way to use a conventional 3.5" drive with a
+>>laptop directly.
+>  Ah, they told me that about my A1200.
+> 
+>  Worked a charm. Until I dropped the disk one day onto concrete.Go on. Tell them how long the /first/ one lasted.I vote external firewire if the laptop has the ports for it.Paul.
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+
+==============================================================================
+EMAIL L8 · vraie classe : LÉGITIME · source : test.csv, ligne 1143
+v2 (seuil 0.979) : légitime (0.0 %) -> juste   |   v1 (seuil 0.881) : légitime (0.0 %)
+==============================================================================
+
+Smith, Graham - Computing Technician wrote:
+> 
+> ntp.cs.tcd.ie  (thats a strata 2 isnt it? are there any other publically
+> accessible NTP servers in Ireland?)tick.indigo.ie
+tock.indigo.ie-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+
+
+##############################################################################
+# PARTIE 2 : EMAILS DE PHISHING / SPAM DU DATASET (jeu de test)
+##############################################################################
+
+==============================================================================
+EMAIL P1 · vraie classe : PHISHING · source : test.csv, ligne 365
+v2 (seuil 0.979) : PHISHING (100.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.9 %)
+==============================================================================
+
+Dear user,
+CyberAge Dating Club is contacting you on behalf of Jenny.
+You have been carefully chosen as a matching partner for the other party using 
+  our advanced profile-matching system. We have determined that you do not currently 
+  have an account with us and invite you to join. It's absolutely FREE and there's 
+  no obligations or hidden charges. Come see for yourself and prepare to have 
+  fun! 
+Click here to Join 
+  Now or simply disregard this request if you're not interested.
+Sincerely yours,
+  CyberAge Dating Club Staff.
+
+
+==============================================================================
+EMAIL P2 · vraie classe : PHISHING · source : test.csv, ligne 1374
+v2 (seuil 0.979) : PHISHING (100.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.9 %)
+==============================================================================
+
+Congratulations, 
+You Won $30 FreeToday At The Internet's Best & MostTrusted On-Line 
+Casino!
+To Collect Your 
+$30 Cash Click Here!Â 
+To Collect Your $30 Cash Click Here!
+Â Â 
+Â 
+Â This message is sent in compliance of the new 
+            e-mail bill:SECTION 301 Per Section 301, Paragraph (a)(2)(C) of 
+            S. 1618,Further transmissions to you by the sender of this email 
+            maybestopped at no cost to you by entering your email address 
+            tothe form in this email and clicking submit to be 
+            automatically   
+                                    
+                               removed. To be Removed from our 
+            Opt-In mailing list. Please enter your email address in the provided 
+            box below and click remove, thank you. 
+      
+Your 
+                          E-mail Address Will Be Immediately Removed From All Mailing ListsÂ
+
+
+==============================================================================
+EMAIL P3 · vraie classe : PHISHING · source : test.csv, ligne 1302
+v2 (seuil 0.979) : PHISHING (100.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.9 %)
+==============================================================================
+
+You have been specially selected to qualify for the following:Premium Vacation Package and Pentium PC Giveaway
+To review the details of the please click on the link 
+with the confirmation number below:http://vacation.1chn.comConfirmation Number#Lh340
+Please confirm your entry within 24 hours of receipt of this confirmation.Wishing you a fun filled vacation!
+If you should have any additional questions or cann't connect to the site 
+do not hesitate to contact me direct:
+mailto:vacation@btamail.net.cn?subject=Help!
+
+
+==============================================================================
+EMAIL P4 · vraie classe : PHISHING · source : test.csv, ligne 15
+v2 (seuil 0.979) : PHISHING (100.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.9 %)
+==============================================================================
+
+INTEREST RATES HAVE JUST BEEN CUT!!!
+ 
+NOW is the perfect time to think about refinancing your home mortgage! Rates are down! Take a minute and fill out our quick online form. 
+http://www3.all-savings.com/refi/
+       
+Easy qualifying, prompt, courteous service, low rates! Don't wait for interest rates to go up again, lock in YOUR low rate now!
+      
+      
+      
+     
+      
+    
+---------------------------------------
+To unsubscribe, go to: 
+http://www3.all-savings.com/stopthemailplease/
+Please allow 48-72 hours for removal.
+
+
+==============================================================================
+EMAIL P5 · vraie classe : PHISHING · source : test.csv, ligne 623
+v2 (seuil 0.979) : PHISHING (100.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.9 %)
+==============================================================================
+
+Government Grants E-Book 2002 editionYou Can Receive The Money You Need...
+Every day millions of dollars are given away to people, just like you!!
+Your Government spends billions of tax dollars on government grants.
+Do you know that private foundations, trust and corporations are
+required to give away a portion of theirs assets. It doesn't matter,
+where you live (USA ONLY), your employment status, or if you are broke, retired
+or living on a fixed income. There may be a grant for you!ANYONE can apply for a Grant from 18 years old and up!
+We will show you HOW & WHERE to get Grants. THIS BOOK IS NEWLY UPDATED WITH THE MOST CURRENT INFORMATION!!!
+Grants from $500.00 to $50,000.00 are possible!
+GRANTS don't have to be paid back, EVER!
+Grants can be ideal for people who are or were bankrupt or just have bad credit.Please Visit Our Website
+And Place Your  Order TODAY! CLICK HERE Â We apologize for any email you may have inadvertently received.
+Please CLICK HERE to be removed from future mailings. [IYs5]
+
+
+==============================================================================
+EMAIL P6 · vraie classe : PHISHING · source : test.csv, ligne 877
+v2 (seuil 0.979) : PHISHING (99.8 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.8 %)
+==============================================================================
+
+1) Claim Your $25 Kmart Gift Card
+http://www.adclick.ws/p.cfm?o=320&s=pk000012) Auto Loans, Fast Approvals for Any Credit!
+http://www.adclick.ws/p.cfm?o=383&s=pk13) Are You Paying Too Much for Auto Insurance - Find Out?
+http://www.adclick.ws/p.cfm?o=334&s=pk1Have a Wonderful Day,
+PrizeMama.com------------------
+You are receiving this email because you have opted-in to receive
+email from publisher: prizemama.  To unsubscribe, click below:http://u2.azoogle.com/?z=93-1090346-62lLC4
+-- 
+Irish Linux Users' Group Social Events: social@linux.ie
+http://www.linux.ie/mailman/listinfo/social for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+
+==============================================================================
+EMAIL P7 · vraie classe : PHISHING · source : test.csv, ligne 759
+v2 (seuil 0.979) : PHISHING (100.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (100.0 %)
+==============================================================================
+
+Protect yourself with an extended warranty for your car, minivan, truck or SUV. Buy DIRECT and SAVE money 40% to 60%!
+http://211.78.96.11/extended/warranty.htm
+             
+Extend your existing Warranty.
+             
+Get a new Warranty even if your original Warranty expired.
+             
+Get a FREE NO OBLIGATION Extended Warranty Quote NOW. Find out how much it would cost to Protect YOUR investment. 
+             
+This is a FREE Service.
+                                        
+Simply fill out our FREE NO OBLIGATION form and find out.
+                                        
+It's That Easy!
+                                        
+Visit our website:  
+http://211.78.96.11/extended/warranty.htm
+                                   
+                                        
+================================================
+                                       
+To be removed, click below and fill out the remove form:
+http://211.78.96.11/removal/remove.htm
+Please allow 72 hours for removal.
+
+
+==============================================================================
+EMAIL P8 · vraie classe : PHISHING · source : test.csv, ligne 695
+v2 (seuil 0.979) : PHISHING (100.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.9 %)
+==============================================================================
+
+Let Work From Home help you, our program has made more Millionaires than
+any other home business opportunity in existance.
+We have a proven 20 year track record and will help you succeed.If a former realtor
+and former decorator(John and Susan Peterson)can quickly build residual checks like these...Â ...THEN SO CAN YOU!All you
+have to do is follow the roadmap to success,with the AUTOMATED DIRECT DATA SYSTEM.CLICK HERE to begin your journey.If you do not desire to incur further suggestion from us, pleaseEnter here
+
+
+
+##############################################################################
+# PARTIE 3 : EMAILS TRANSACTIONNELS (test_synth : marques et phrases jamais vues)
+##############################################################################
+Emails générés par augment.py avec la partie RÉSERVÉE au test. La v1 se trompait
+sur les légitimes de ce type ; c'est ce que la v2 devait corriger.
+
+
+==============================================================================
+EMAIL T1 · vraie classe : LÉGITIME · source : test_synth, email 13
+v2 (seuil 0.979) : légitime (0.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (93.7 %)
+==============================================================================
+
+Subject: Activity on your account
+
+Dear Carlos Lopez,
+
+A transfer of $1,586.09 was completed from your checking account on August 4, 2025.
+
+You can review recent activity anytime at https://www.ally.com/activity.
+
+If you do not recognize this transaction, please call the number on the back of your card.
+
+Thank you.
+
+Ally Bank Online Services
+
+
+==============================================================================
+EMAIL T2 · vraie classe : LÉGITIME · source : test_synth, email 21
+v2 (seuil 0.979) : légitime (0.1 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.9 %)
+==============================================================================
+
+Dear Account Holder,
+
+Your credit card statement for July has been generated.
+
+There is nothing you need to do right now.
+
+You can view it by signing in to online banking as usual.
+
+Thank you.
+
+Citibank Customer Care
+
+Citibank, Inc. All rights reserved. Privacy Policy | Terms of Use
+
+
+==============================================================================
+EMAIL T3 · vraie classe : LÉGITIME · source : test_synth, email 17
+v2 (seuil 0.979) : légitime (0.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.8 %)
+==============================================================================
+
+Dear William Wilson,
+
+We detected a login from a device we did not recognize: the Mobile App on iPad.
+
+No further action is required if this was you.
+
+You can review your recent activity at https://www.slack.com/support.
+
+Kind regards and thank you.
+
+Slack Online Services
+
+Please do not reply to this message. Replies to this address are not monitored.
+
+
+==============================================================================
+EMAIL T4 · vraie classe : LÉGITIME · source : test_synth, email 12
+v2 (seuil 0.979) : légitime (0.1 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.8 %)
+==============================================================================
+
+Subject: Your credentials were updated
+
+Dear Emily Smith,
+
+Your account credentials were updated on July 3, 2025.
+
+If you did not request this, visit https://www.apple.com/support to secure your account.
+
+Thank you.
+
+Apple Customer Care
+
+Apple, Inc. All rights reserved. Privacy Policy | Terms of Use
+
+
+==============================================================================
+EMAIL T5 · vraie classe : PHISHING · source : test_synth, email 14
+v2 (seuil 0.979) : PHISHING (100.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.8 %)
+==============================================================================
+
+Dear Account Holder,
+
+Your credit card statement for October has been generated.
+
+Unusual charges were found. Verify your account now at https://tinyurl.com/15161x.
+
+Kind regards and thank you.
+
+Citibank Online Services
+
+
+==============================================================================
+EMAIL T6 · vraie classe : PHISHING · source : test_synth, email 37
+v2 (seuil 0.979) : PHISHING (100.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.9 %)
+==============================================================================
+
+Subject: Action required: Account activity notice
+
+Dear Susan Walker,
+
+We detected a login from a device we did not recognize: Firefox on Linux.
+
+Click here to lock your account now: http://slack-secure.web.app/update
+
+If this was not you, secure your account immediately at http://slack-secure.web.app/update.
+
+Kind regards and thank you.
+
+Slack Customer Care
+
+To manage your email preferences, visit your account settings.
+
+
+==============================================================================
+EMAIL T7 · vraie classe : PHISHING · source : test_synth, email 4
+v2 (seuil 0.979) : PHISHING (100.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.8 %)
+==============================================================================
+
+Subject: Tracking update for your shipment
+
+Dear Jennifer Brown,
+
+Your package JD3927445059 is out for delivery today.
+
+Download the attached label and enter your card details to release your parcel.
+
+Thank you.
+
+Aramex Customer Care
+
+Please do not reply to this message. Replies to this address are not monitored.
+
+
+
+##############################################################################
+# PARTIE 4 : CAS DIFFICILES ET ERREURS (à montrer pour être honnête)
+##############################################################################
+
+==============================================================================
+EMAIL D1 · vraie classe : LÉGITIME · source : test.csv, ligne 590
+v2 (seuil 0.979) : PHISHING (100.0 %) -> ERREUR   |   v1 (seuil 0.881) : légitime (0.1 %)
+Note : Rappel de renouvellement de nom de domaine : la v1 avait raison, la v2
+se trompe. Hypothèse : « expire », « deactivated » et une adresse de contact
+ressemblent aux menaces des emails transactionnels de phishing appris en v2.
+==============================================================================
+
+The following domains that are registered as belonging
+to you are due to expire within the next 60 days. If
+you would like to renew them, please contact
+nic@starflung.com; otherwise they will be deactivated
+and may be registered by another.
+Domain Name, Expiry Date
+nutmegclothing.com, 2002-06-26
+
+
+==============================================================================
+EMAIL D2 · vraie classe : PHISHING · source : test.csv, ligne 13
+v2 (seuil 0.979) : légitime (9.8 %) -> ERREUR   |   v1 (seuil 0.881) : PHISHING (99.2 %)
+Note : Spam promotionnel poli, sans urgence : la v1 le détectait, la v2 le
+rate.
+==============================================================================
+
+New Page 2Due to heavy demand from our customers we are extending the
+ 5% EXTRA Off Coupon on all your purchases with Coupon Code RMSCY6P2
+upto July'30 2002
+and the offer is exclusively from us.
+You received this letter because you signed
+  up to receive offers from one of our affiliate sites.
+  Â  To unsubscribe from our mailing list, Online
+  Unsubscribe Click
+  Here or byÂ 
+  email Click
+  Here
+Â
+
+
+==============================================================================
+EMAIL D3 · vraie classe : PHISHING · source : test.csv, ligne 1624
+v2 (seuil 0.979) : PHISHING (97.9 %) -> juste   |   v1 (seuil 0.881) : légitime (0.2 %)
+Note : Probabilité v2 juste au niveau du seuil : un cas limite, le verdict
+bascule si on bouge le curseur.
+==============================================================================
+
+I thought you might like these:
+1) Slim Down - Guaranteed to lose 10-12 lbs in 30 days
+http://www.freeyankee.com/cgi/fy2/to.cgi?l=822slim12) Fight The Risk of Cancer! 
+http://www.freeyankee.com/cgi/fy2/to.cgi?l=822nic1 3) Get the Child Support You Deserve - Free Legal Advice 
+http://www.freeyankee.com/cgi/fy2/to.cgi?l=822ppl1Offer Manager
+Daily-Deals
+If you wish to leave this list please use the link below.
+http://www.qves.com/trim/?social@linux.ie%7C29%7C134077
+-- 
+Irish Linux Users' Group Social Events: social@linux.ie
+http://www.linux.ie/mailman/listinfo/social for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+
+==============================================================================
+EMAIL D4 · vraie classe : LÉGITIME · source : test_synth, email 38
+v2 (seuil 0.979) : PHISHING (99.9 %) -> ERREUR   |   v1 (seuil 0.881) : PHISHING (99.9 %)
+Note : Confirmation de commande légitime encore classée phishing par la v2 :
+l'augmentation n'a pas tout corrigé.
+==============================================================================
+
+Subject: We received your order
+
+Dear Account Holder,
+
+Thanks for shopping with Best Buy! Your order #623-1082004 is being prepared.
+
+Questions? Visit the Help section of our website.
+
+Kind regards and thank you.
+
+Best Buy Online Services
+
+You are receiving this email because you have an account with Best Buy.
+
+
+==============================================================================
+EMAIL D5 · vraie classe : PHISHING · source : test_synth, email 19
+v2 (seuil 0.979) : légitime (0.0 %) -> ERREUR   |   v1 (seuil 0.881) : légitime (0.1 %)
+Note : Phishing sans lien (pièce jointe HTML) : la v2 le rate, faute de lien
+suspect.
+==============================================================================
+
+Subject: You have a new document
+
+Dear Carlos Taylor,
+
+You have been given access to "Team schedule".
+
+Download the attached HTML file and log in to view the document.
+
+Thank you.
+
+Uber Customer Care
+
+This is an automated message, please do not reply to this email.
+
+
+==============================================================================
+EMAIL D6 · vraie classe : LÉGITIME · source : test.csv, ligne 959
+v2 (seuil 0.979) : légitime (5.2 %) -> juste   |   v1 (seuil 0.881) : légitime (0.2 %)
+Note : Email légitime long sur un sujet inhabituel : correct, mais un peu
+moins sûr que les autres.
+==============================================================================
+
+Martin A posted:
+Tassos Papadopoulos, the Greek sculptor behind the plan, judged that the
+ limestone of Mount Kerdylio, 70 miles east of Salonika and not far from the
+ Mount Athos monastic community, was ideal for the patriotic sculpture. 
+ 
+ As well as Alexander's granite features, 240 ft high and 170 ft wide, a
+ museum, a restored amphitheatre and car park for admiring crowds are
+planned
+---------------------
+So is this mountain limestone or granite?
+If it's limestone, it'll weather pretty fast.------------------------ Yahoo! Groups Sponsor ---------------------~-->
+4 DVDs Free +s&p Join Now
+http://us.click.yahoo.com/pt6YBB/NXiEAA/mG3HAA/7gSolB/TM
+---------------------------------------------------------------------~->To unsubscribe from this group, send an email to:
+forteana-unsubscribe@egroups.com Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/
+
+
+
+##############################################################################
+# PARTIE 5 : LES DEUX EMAILS BANCAIRES TESTÉS EN DIRECT (hors dataset)
+##############################################################################
+
+==============================================================================
+EMAIL R1 · vraie classe : LÉGITIME · source : email réel saisi pendant les tests
+v2 (seuil 0.979) : légitime (0.0 %) -> juste   |   v1 (seuil 0.881) : PHISHING (99.9 %)
+==============================================================================
+
+Dear Customer,
+
+Your recent transaction of $125.00 was successfully processed on November 4, 2026.
+
+You can review the transaction details in your online banking application.
+
+If you do not recognize this transaction, please contact our customer support team using the phone number on the back of your bank card.
+
+Thank you for banking with us.
+
+Best regards,
+Customer Support Team
+
+
+==============================================================================
+EMAIL R2 · vraie classe : LÉGITIME · source : email réel saisi pendant les tests
+v2 (seuil 0.979) : légitime (0.4 %) -> juste   |   v1 (seuil 0.881) : PHISHING (98.2 %)
+==============================================================================
+
+Dear Customer,
+
+Your monthly bank account statement for October 2026 is now available.
+
+Here is a summary of your account activity:
+
+- Account type: Savings Account
+- Statement period: October 1 - October 31, 2026
+- Total deposits: $850.00
+- Total withdrawals: $320.00
+- Closing balance: $2,430.00
+
+You can view your statement by signing in to your online banking application using your usual banking credentials.
+
+If you have any questions regarding your transactions, please contact our customer service team using the official phone number listed on your bank card.
+

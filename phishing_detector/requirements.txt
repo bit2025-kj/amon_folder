@@ -1,0 +1,8 @@
+torch>=2.0
+tokenizers>=0.15
+pandas
+numpy
+scikit-learn
+tqdm
+gradio>=6.0
+python-multipart>=0.0.18

@@ -1,0 +1,1814 @@
+﻿=== Rendu S02_Pipeline ===
+Manim Community v0.20.1
+
+[11/04/26 12:50:43] INFO     Caching disabled.             cairo_renderer.py:83
+python : 
+Au caractère Ligne:1 : 302
++ ... tch {} } }; python render_all.py --preview S02_Pipeline S03_Normalisa ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Animation 0: FadeIn(Text('02')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 0: FadeIn(Text('02')), etc.:  28%|##7       | 5/18 [00:00<00:00, 42.37it/s]
+Animation 0: FadeIn(Text('02')), etc.:  61%|######1   | 11/18 [00:00<00:00, 50.31it/s]
+Animation 0: FadeIn(Text('02')), etc.:  94%|#########4| 17/18 [00:00<00:00, 51.45it/s]
+[11/04/26 12:50:44] INFO     Animation 0 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00000.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                      
+
+Animation 1: FadeIn(Text('Un réseau ne lit pas : il calcule sur des nombres')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 1: FadeIn(Text('Un réseau ne lit pas : il calcule sur des nombres')):  27%|##6       | 4/15 [00:00<00:00, 
+36.93it/s]
+Animation 1: FadeIn(Text('Un réseau ne lit pas : il calcule sur des nombres')):  53%|#####3    | 8/15 [00:00<00:00, 
+30.91it/s]
+Animation 1: FadeIn(Text('Un réseau ne lit pas : il calcule sur des nombres')):  80%|########  | 12/15 [00:00<00:00, 
+31.84it/s]
+[11/04/26 12:50:45] INFO     Animation 1 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00001.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                    INFO     Animation 2 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00002.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+        
+
+Animation 3: FadeOut(VGroup of 3 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects):  33%|###3      | 5/15 [00:00<00:00, 46.91it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects):  67%|######6   | 10/15 [00:00<00:00, 45.49it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects): 100%|##########| 15/15 [00:00<00:00, 37.15it/s]
+[11/04/26 12:50:46] INFO     Animation 3 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00003.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                              
+
+Animation 4: FadeIn(Text('02 · Le pipeline NLP')):   0%|          | 0/6 [00:00<?, ?it/s]
+Animation 4: FadeIn(Text('02 · Le pipeline NLP')): 100%|##########| 6/6 [00:00<00:00, 59.06it/s]
+[11/04/26 12:50:47] INFO     Animation 4 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00004.mp4'                                     
+[11/04/26 12:50:48] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                
+
+Animation 5: LaggedStart(Group):   0%|          | 0/24 [00:00<?, ?it/s]
+Animation 5: LaggedStart(Group):   8%|8         | 2/24 [00:00<00:01, 14.32it/s]
+Animation 5: LaggedStart(Group):  21%|##        | 5/24 [00:00<00:00, 19.11it/s]
+Animation 5: LaggedStart(Group):  38%|###7      | 9/24 [00:00<00:00, 24.45it/s]
+Animation 5: LaggedStart(Group):  50%|#####     | 12/24 [00:00<00:00, 18.00it/s]
+Animation 5: LaggedStart(Group):  58%|#####8    | 14/24 [00:00<00:00, 16.79it/s]
+Animation 5: LaggedStart(Group):  67%|######6   | 16/24 [00:00<00:00, 16.99it/s]
+Animation 5: LaggedStart(Group):  79%|#######9  | 19/24 [00:01<00:00, 18.97it/s]
+Animation 5: LaggedStart(Group):  92%|#########1| 22/24 [00:01<00:00, 20.10it/s]
+[11/04/26 12:50:50] INFO     Animation 5 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00005.mp4'                                     
+[11/04/26 12:50:53] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                
+
+Animation 6: Create(RoundedRectangle), etc.:   0%|          | 0/14 [00:00<?, ?it/s]
+Animation 6: Create(RoundedRectangle), etc.:  43%|####2     | 6/14 [00:00<00:00, 59.69it/s]
+Animation 6: Create(RoundedRectangle), etc.:  86%|########5 | 12/14 [00:00<00:00, 47.30it/s]
+[11/04/26 12:50:54] INFO     Animation 6 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00006.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                            
+
+Animation 7: FadeIn(Text("L'email tel qu'il arrive dans la boîte de réception.")):   0%|          | 0/8 [00:00<?, 
+?it/s]
+Animation 7: FadeIn(Text("L'email tel qu'il arrive dans la boîte de réception.")):  38%|###7      | 3/8 [00:00<00:00, 
+19.97it/s]
+Animation 7: FadeIn(Text("L'email tel qu'il arrive dans la boîte de réception.")):  62%|######2   | 5/8 [00:00<00:00, 
+18.86it/s]
+Animation 7: FadeIn(Text("L'email tel qu'il arrive dans la boîte de réception.")):  88%|########7 | 7/8 [00:00<00:00, 
+16.44it/s]
+[11/04/26 12:50:55] INFO     Animation 7 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00007.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                    INFO     Animation 8 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00008.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+         
+
+Animation 9: FadeOut(RoundedRectangle):   0%|          | 0/5 [00:00<?, ?it/s]
+Animation 9: FadeOut(RoundedRectangle):  60%|######    | 3/5 [00:00<00:00, 27.17it/s]
+[11/04/26 12:50:56] INFO     Animation 9 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00009.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                     
+
+Animation 10: Create(RoundedRectangle), etc.:   0%|          | 0/14 [00:00<?, ?it/s]
+Animation 10: Create(RoundedRectangle), etc.:  21%|##1       | 3/14 [00:00<00:00, 22.45it/s]
+Animation 10: Create(RoundedRectangle), etc.:  43%|####2     | 6/14 [00:00<00:00, 21.68it/s]
+Animation 10: Create(RoundedRectangle), etc.:  64%|######4   | 9/14 [00:00<00:00, 24.59it/s]
+Animation 10: Create(RoundedRectangle), etc.:  86%|########5 | 12/14 [00:00<00:00, 26.31it/s]
+                    INFO     Animation 10 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00010.mp4'                                     
+[11/04/26 12:50:57] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                             
+
+Animation 11: FadeOut(Text("L'email tel qu'il arrive dans la boîte de réception.")), etc.:   0%|          | 0/8 
+[00:00<?, ?it/s]
+Animation 11: FadeOut(Text("L'email tel qu'il arrive dans la boîte de réception.")), etc.:  25%|##5       | 2/8 
+[00:00<00:00, 13.70it/s]
+Animation 11: FadeOut(Text("L'email tel qu'il arrive dans la boîte de réception.")), etc.:  50%|#####     | 4/8 
+[00:00<00:00, 13.35it/s]
+Animation 11: FadeOut(Text("L'email tel qu'il arrive dans la boîte de réception.")), etc.:  75%|#######5  | 6/8 
+[00:00<00:00, 13.37it/s]
+Animation 11: FadeOut(Text("L'email tel qu'il arrive dans la boîte de réception.")), etc.: 100%|##########| 8/8 
+[00:00<00:00, 14.25it/s]
+[11/04/26 12:50:58] INFO     Animation 11 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00011.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:50:59] INFO     Animation 12 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00012.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                 
+
+Animation 13: FadeOut(RoundedRectangle):   0%|          | 0/5 [00:00<?, ?it/s]
+Animation 13: FadeOut(RoundedRectangle):  80%|########  | 4/5 [00:00<00:00, 38.99it/s]
+                    INFO     Animation 13 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00013.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                      
+
+Animation 14: Create(RoundedRectangle), etc.:   0%|          | 0/14 [00:00<?, ?it/s]
+Animation 14: Create(RoundedRectangle), etc.:   7%|7         | 1/14 [00:00<00:01,  7.26it/s]
+Animation 14: Create(RoundedRectangle), etc.:  14%|#4        | 2/14 [00:00<00:01,  7.66it/s]
+Animation 14: Create(RoundedRectangle), etc.:  21%|##1       | 3/14 [00:00<00:01,  8.32it/s]
+Animation 14: Create(RoundedRectangle), etc.:  29%|##8       | 4/14 [00:00<00:01,  8.74it/s]
+Animation 14: Create(RoundedRectangle), etc.:  43%|####2     | 6/14 [00:00<00:00, 10.31it/s]
+Animation 14: Create(RoundedRectangle), etc.:  57%|#####7    | 8/14 [00:00<00:00,  9.28it/s]
+Animation 14: Create(RoundedRectangle), etc.:  71%|#######1  | 10/14 [00:01<00:00, 10.09it/s]
+Animation 14: Create(RoundedRectangle), etc.:  86%|########5 | 12/14 [00:01<00:00,  9.71it/s]
+Animation 14: Create(RoundedRectangle), etc.:  93%|#########2| 13/14 [00:01<00:00,  9.29it/s]
+[11/04/26 12:51:03] INFO     Animation 14 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00014.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                             
+
+Animation 15: FadeOut(Text('Un format unique : minuscules, ponctuation séparée.')), etc.:   0%|          | 0/8 
+[00:00<?, ?it/s]
+Animation 15: FadeOut(Text('Un format unique : minuscules, ponctuation séparée.')), etc.:  25%|##5       | 2/8 
+[00:00<00:00, 12.74it/s]
+Animation 15: FadeOut(Text('Un format unique : minuscules, ponctuation séparée.')), etc.:  50%|#####     | 4/8 
+[00:00<00:00, 13.48it/s]
+Animation 15: FadeOut(Text('Un format unique : minuscules, ponctuation séparée.')), etc.:  75%|#######5  | 6/8 
+[00:00<00:00, 13.77it/s]
+Animation 15: FadeOut(Text('Un format unique : minuscules, ponctuation séparée.')), etc.: 100%|##########| 8/8 
+[00:00<00:00, 15.22it/s]
+[11/04/26 12:51:04] INFO     Animation 15 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00015.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:51:05] INFO     Animation 16 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00016.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                
+
+Animation 17: FadeOut(RoundedRectangle):   0%|          | 0/5 [00:00<?, ?it/s]
+Animation 17: FadeOut(RoundedRectangle):  60%|######    | 3/5 [00:00<00:00, 26.05it/s]
+                    INFO     Animation 17 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00017.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                      
+
+Animation 18: Create(RoundedRectangle), etc.:   0%|          | 0/14 [00:00<?, ?it/s]
+Animation 18: Create(RoundedRectangle), etc.:  14%|#4        | 2/14 [00:00<00:00, 13.23it/s]
+Animation 18: Create(RoundedRectangle), etc.:  29%|##8       | 4/14 [00:00<00:00, 13.76it/s]
+Animation 18: Create(RoundedRectangle), etc.:  43%|####2     | 6/14 [00:00<00:00, 14.46it/s]
+Animation 18: Create(RoundedRectangle), etc.:  57%|#####7    | 8/14 [00:00<00:00, 14.18it/s]
+Animation 18: Create(RoundedRectangle), etc.:  71%|#######1  | 10/14 [00:00<00:00, 15.83it/s]
+Animation 18: Create(RoundedRectangle), etc.:  93%|#########2| 13/14 [00:00<00:00, 18.27it/s]
+[11/04/26 12:51:07] INFO     Animation 18 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00018.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                             
+
+Animation 19: FadeIn(VGroup of 4 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 19: FadeIn(VGroup of 4 submobjects):  27%|##6       | 4/15 [00:00<00:00, 36.59it/s]
+Animation 19: FadeIn(VGroup of 4 submobjects):  53%|#####3    | 8/15 [00:00<00:00, 34.72it/s]
+Animation 19: FadeIn(VGroup of 4 submobjects):  80%|########  | 12/15 [00:00<00:00, 33.86it/s]
+[11/04/26 12:51:08] INFO     Animation 19 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00019.mp4'                                     
+[11/04/26 12:51:09] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                              
+
+Animation 20: FadeOut(Text('Le tokenizer BPE découpe le texte en morceaux connus.')), etc.:   0%|          | 0/8 
+[00:00<?, ?it/s]
+Animation 20: FadeOut(Text('Le tokenizer BPE découpe le texte en morceaux connus.')), etc.:  25%|##5       | 2/8 
+[00:00<00:00,  9.62it/s]
+Animation 20: FadeOut(Text('Le tokenizer BPE découpe le texte en morceaux connus.')), etc.:  38%|###7      | 3/8 
+[00:00<00:00,  9.68it/s]
+Animation 20: FadeOut(Text('Le tokenizer BPE découpe le texte en morceaux connus.')), etc.:  62%|######2   | 5/8 
+[00:00<00:00, 11.28it/s]
+Animation 20: FadeOut(Text('Le tokenizer BPE découpe le texte en morceaux connus.')), etc.:  88%|########7 | 7/8 
+[00:00<00:00, 12.15it/s]
+[11/04/26 12:51:10] INFO     Animation 20 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00020.mp4'                                     
+[11/04/26 12:51:11] INFO     Caching disabled.             cairo_renderer.py:83
+                    INFO     Animation 21 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00021.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                  
+
+Animation 22: FadeOut(VGroup of 4 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 22: FadeOut(VGroup of 4 submobjects):  20%|##        | 3/15 [00:00<00:00, 22.65it/s]
+Animation 22: FadeOut(VGroup of 4 submobjects):  40%|####      | 6/15 [00:00<00:00, 24.43it/s]
+Animation 22: FadeOut(VGroup of 4 submobjects):  60%|######    | 9/15 [00:00<00:00, 23.48it/s]
+Animation 22: FadeOut(VGroup of 4 submobjects):  80%|########  | 12/15 [00:00<00:00, 22.67it/s]
+Animation 22: FadeOut(VGroup of 4 submobjects): 100%|##########| 15/15 [00:00<00:00, 24.39it/s]
+[11/04/26 12:51:12] INFO     Animation 22 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00022.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                               
+
+Animation 23: FadeOut(RoundedRectangle):   0%|          | 0/5 [00:00<?, ?it/s]
+Animation 23: FadeOut(RoundedRectangle):  60%|######    | 3/5 [00:00<00:00, 19.69it/s]
+[11/04/26 12:51:13] INFO     Animation 23 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00023.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                      
+
+Animation 24: Create(RoundedRectangle), etc.:   0%|          | 0/14 [00:00<?, ?it/s]
+Animation 24: Create(RoundedRectangle), etc.:  14%|#4        | 2/14 [00:00<00:00, 12.60it/s]
+Animation 24: Create(RoundedRectangle), etc.:  29%|##8       | 4/14 [00:00<00:00, 11.65it/s]
+Animation 24: Create(RoundedRectangle), etc.:  43%|####2     | 6/14 [00:00<00:00, 10.19it/s]
+Animation 24: Create(RoundedRectangle), etc.:  57%|#####7    | 8/14 [00:00<00:00, 10.08it/s]
+Animation 24: Create(RoundedRectangle), etc.:  71%|#######1  | 10/14 [00:01<00:00,  8.60it/s]
+Animation 24: Create(RoundedRectangle), etc.:  79%|#######8  | 11/14 [00:01<00:00,  8.19it/s]
+Animation 24: Create(RoundedRectangle), etc.:  86%|########5 | 12/14 [00:01<00:00,  7.81it/s]
+Animation 24: Create(RoundedRectangle), etc.:  93%|#########2| 13/14 [00:01<00:00,  7.61it/s]
+Animation 24: Create(RoundedRectangle), etc.: 100%|##########| 14/14 [00:01<00:00,  8.09it/s]
+[11/04/26 12:51:15] INFO     Animation 24 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00024.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                             
+
+Animation 25: FadeIn(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')):   0%|          | 0/15 
+[00:00<?, ?it/s]
+Animation 25: FadeIn(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')):  20%|##        | 3/15 
+[00:00<00:00, 24.28it/s]
+Animation 25: FadeIn(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')):  53%|#####3    | 8/15 
+[00:00<00:00, 34.12it/s]
+Animation 25: FadeIn(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')):  80%|########  | 12/15 
+[00:00<00:00, 31.45it/s]
+[11/04/26 12:51:17] INFO     Animation 25 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00025.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                 
+
+Animation 26: FadeOut(Text('Chaque token devient son numéro dans un vocabulaire de 8 000 (ids réels).')), etc.:   0%|  
+        | 0/8 [00:00<?, ?it/s]
+Animation 26: FadeOut(Text('Chaque token devient son numéro dans un vocabulaire de 8 000 (ids réels).')), etc.:  
+25%|##5       | 2/8 [00:00<00:00, 12.24it/s]
+Animation 26: FadeOut(Text('Chaque token devient son numéro dans un vocabulaire de 8 000 (ids réels).')), etc.:  
+50%|#####     | 4/8 [00:00<00:00, 10.89it/s]
+Animation 26: FadeOut(Text('Chaque token devient son numéro dans un vocabulaire de 8 000 (ids réels).')), etc.:  
+75%|#######5  | 6/8 [00:00<00:00, 11.41it/s]
+Animation 26: FadeOut(Text('Chaque token devient son numéro dans un vocabulaire de 8 000 (ids réels).')), etc.: 
+100%|##########| 8/8 [00:00<00:00, 11.65it/s]
+[11/04/26 12:51:19] INFO     Animation 26 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00026.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                    INFO     Animation 27 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00027.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                                      
+
+Animation 28: FadeOut(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')):   0%|          | 0/15 
+[00:00<?, ?it/s]
+Animation 28: FadeOut(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')):  13%|#3        | 2/15 
+[00:00<00:01, 10.99it/s]
+Animation 28: FadeOut(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')):  27%|##6       | 4/15 
+[00:00<00:01, 10.21it/s]
+Animation 28: FadeOut(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')):  40%|####      | 6/15 
+[00:00<00:00, 10.01it/s]
+Animation 28: FadeOut(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')):  53%|#####3    | 8/15 
+[00:00<00:00,  9.44it/s]
+Animation 28: FadeOut(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')):  60%|######    | 9/15 
+[00:00<00:00,  9.31it/s]
+Animation 28: FadeOut(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')):  73%|#######3  | 11/15 
+[00:01<00:00, 10.12it/s]
+Animation 28: FadeOut(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')):  87%|########6 | 13/15 
+[00:01<00:00, 11.26it/s]
+Animation 28: FadeOut(Text('4 tokens × 128 dimensions (8 cases dessinées par vecteur)')): 100%|##########| 15/15 
+[00:01<00:00, 12.74it/s]
+[11/04/26 12:51:21] INFO     Animation 28 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00028.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                  
+
+Animation 29: FadeOut(RoundedRectangle):   0%|          | 0/5 [00:00<?, ?it/s]
+Animation 29: FadeOut(RoundedRectangle): 100%|##########| 5/5 [00:00<00:00, 42.54it/s]
+[11/04/26 12:51:22] INFO     Animation 29 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00029.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                      
+
+Animation 30: Create(RoundedRectangle), etc.:   0%|          | 0/14 [00:00<?, ?it/s]
+Animation 30: Create(RoundedRectangle), etc.:  21%|##1       | 3/14 [00:00<00:00, 24.57it/s]
+Animation 30: Create(RoundedRectangle), etc.:  50%|#####     | 7/14 [00:00<00:00, 29.21it/s]
+Animation 30: Create(RoundedRectangle), etc.:  79%|#######8  | 11/14 [00:00<00:00, 30.89it/s]
+                    INFO     Animation 30 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00030.mp4'                                     
+[11/04/26 12:51:23] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                             
+
+Animation 31: FadeOut(Text('Chaque numéro devient un vecteur de 128 nombres appris.')), etc.:   0%|          | 0/8 
+[00:00<?, ?it/s]
+Animation 31: FadeOut(Text('Chaque numéro devient un vecteur de 128 nombres appris.')), etc.:  25%|##5       | 2/8 
+[00:00<00:00,  9.97it/s]
+Animation 31: FadeOut(Text('Chaque numéro devient un vecteur de 128 nombres appris.')), etc.:  38%|###7      | 3/8 
+[00:00<00:00,  8.77it/s]
+Animation 31: FadeOut(Text('Chaque numéro devient un vecteur de 128 nombres appris.')), etc.:  50%|#####     | 4/8 
+[00:00<00:00,  8.20it/s]
+Animation 31: FadeOut(Text('Chaque numéro devient un vecteur de 128 nombres appris.')), etc.:  62%|######2   | 5/8 
+[00:00<00:00,  7.96it/s]
+Animation 31: FadeOut(Text('Chaque numéro devient un vecteur de 128 nombres appris.')), etc.:  75%|#######5  | 6/8 
+[00:00<00:00,  8.00it/s]
+Animation 31: FadeOut(Text('Chaque numéro devient un vecteur de 128 nombres appris.')), etc.:  88%|########7 | 7/8 
+[00:00<00:00,  8.45it/s]
+Animation 31: FadeOut(Text('Chaque numéro devient un vecteur de 128 nombres appris.')), etc.: 100%|##########| 8/8 
+[00:00<00:00,  8.37it/s]
+[11/04/26 12:51:25] INFO     Animation 31 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00031.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:51:26] INFO     Animation 32 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00032.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                    
+
+Animation 33: FadeOut(RoundedRectangle):   0%|          | 0/5 [00:00<?, ?it/s]
+Animation 33: FadeOut(RoundedRectangle):  60%|######    | 3/5 [00:00<00:00, 22.87it/s]
+                    INFO     Animation 33 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00033.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                      
+
+Animation 34: Create(RoundedRectangle), etc.:   0%|          | 0/14 [00:00<?, ?it/s]
+Animation 34: Create(RoundedRectangle), etc.:   7%|7         | 1/14 [00:00<00:01,  6.97it/s]
+Animation 34: Create(RoundedRectangle), etc.:  14%|#4        | 2/14 [00:00<00:01,  6.33it/s]
+Animation 34: Create(RoundedRectangle), etc.:  21%|##1       | 3/14 [00:00<00:01,  6.51it/s]
+Animation 34: Create(RoundedRectangle), etc.:  29%|##8       | 4/14 [00:00<00:01,  7.17it/s]
+Animation 34: Create(RoundedRectangle), etc.:  36%|###5      | 5/14 [00:00<00:01,  7.65it/s]
+Animation 34: Create(RoundedRectangle), etc.:  43%|####2     | 6/14 [00:00<00:00,  8.04it/s]
+Animation 34: Create(RoundedRectangle), etc.:  50%|#####     | 7/14 [00:00<00:00,  8.18it/s]
+Animation 34: Create(RoundedRectangle), etc.:  64%|######4   | 9/14 [00:01<00:00,  8.75it/s]
+Animation 34: Create(RoundedRectangle), etc.:  71%|#######1  | 10/14 [00:01<00:00,  8.69it/s]
+Animation 34: Create(RoundedRectangle), etc.:  86%|########5 | 12/14 [00:01<00:00,  9.57it/s]
+Animation 34: Create(RoundedRectangle), etc.:  93%|#########2| 13/14 [00:01<00:00,  8.92it/s]
+Animation 34: Create(RoundedRectangle), etc.: 100%|##########| 14/14 [00:01<00:00,  8.87it/s]
+[11/04/26 12:51:29] INFO     Animation 34 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00034.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                             
+
+Animation 35: FadeOut(Text("L'attention mélange les vecteurs : chacun tient compte du contexte.")), etc.:   0%|        
+  | 0/8 [00:00<?, ?it/s]
+Animation 35: FadeOut(Text("L'attention mélange les vecteurs : chacun tient compte du contexte.")), etc.:  25%|##5     
+  | 2/8 [00:00<00:00, 11.73it/s]
+Animation 35: FadeOut(Text("L'attention mélange les vecteurs : chacun tient compte du contexte.")), etc.:  50%|#####   
+  | 4/8 [00:00<00:00, 10.99it/s]
+Animation 35: FadeOut(Text("L'attention mélange les vecteurs : chacun tient compte du contexte.")), etc.:  
+75%|#######5  | 6/8 [00:00<00:00, 12.57it/s]
+Animation 35: FadeOut(Text("L'attention mélange les vecteurs : chacun tient compte du contexte.")), etc.: 
+100%|##########| 8/8 [00:00<00:00, 13.66it/s]
+[11/04/26 12:51:31] INFO     Animation 35 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00035.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:51:32] INFO     Animation 36 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00036.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                                
+
+Animation 37: FadeOut(RoundedRectangle):   0%|          | 0/5 [00:00<?, ?it/s]
+Animation 37: FadeOut(RoundedRectangle):  80%|########  | 4/5 [00:00<00:00, 36.85it/s]
+                    INFO     Animation 37 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00037.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                      
+
+Animation 38: FadeOut(Text('P(phishing) entre 0 et 1')), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 38: FadeOut(Text('P(phishing) entre 0 et 1')), etc.:  13%|#3        | 2/15 [00:00<00:00, 18.04it/s]
+Animation 38: FadeOut(Text('P(phishing) entre 0 et 1')), etc.:  27%|##6       | 4/15 [00:00<00:00, 17.91it/s]
+Animation 38: FadeOut(Text('P(phishing) entre 0 et 1')), etc.:  40%|####      | 6/15 [00:00<00:00, 18.24it/s]
+Animation 38: FadeOut(Text('P(phishing) entre 0 et 1')), etc.:  53%|#####3    | 8/15 [00:00<00:00, 15.44it/s]
+Animation 38: FadeOut(Text('P(phishing) entre 0 et 1')), etc.:  67%|######6   | 10/15 [00:00<00:00, 16.04it/s]
+Animation 38: FadeOut(Text('P(phishing) entre 0 et 1')), etc.:  80%|########  | 12/15 [00:00<00:00, 14.64it/s]
+Animation 38: FadeOut(Text('P(phishing) entre 0 et 1')), etc.:  93%|#########3| 14/15 [00:00<00:00, 13.79it/s]
+[11/04/26 12:51:34] INFO     Animation 38 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00038.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                              
+
+Animation 39: FadeOut(Text("Un résumé de l'email passe dans une tête qui sort une probabilité.")), etc.:   0%|         
+ | 0/8 [00:00<?, ?it/s]
+Animation 39: FadeOut(Text("Un résumé de l'email passe dans une tête qui sort une probabilité.")), etc.:  25%|##5      
+ | 2/8 [00:00<00:00,  9.19it/s]
+Animation 39: FadeOut(Text("Un résumé de l'email passe dans une tête qui sort une probabilité.")), etc.:  38%|###7     
+ | 3/8 [00:00<00:00,  7.82it/s]
+Animation 39: FadeOut(Text("Un résumé de l'email passe dans une tête qui sort une probabilité.")), etc.:  50%|#####    
+ | 4/8 [00:00<00:00,  7.62it/s]
+Animation 39: FadeOut(Text("Un résumé de l'email passe dans une tête qui sort une probabilité.")), etc.:  75%|#######5 
+ | 6/8 [00:00<00:00,  9.54it/s]
+Animation 39: FadeOut(Text("Un résumé de l'email passe dans une tête qui sort une probabilité.")), etc.:  
+88%|########7 | 7/8 [00:00<00:00,  8.99it/s]
+Animation 39: FadeOut(Text("Un résumé de l'email passe dans une tête qui sort une probabilité.")), etc.: 
+100%|##########| 8/8 [00:00<00:00,  8.93it/s]
+[11/04/26 12:51:36] INFO     Animation 39 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00039.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:51:37] INFO     Animation 40 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00040.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                               
+
+Animation 41: FadeOut(Mobject), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 41: FadeOut(Mobject), etc.:   9%|9         | 1/11 [00:00<00:01,  9.35it/s]
+Animation 41: FadeOut(Mobject), etc.:  18%|#8        | 2/11 [00:00<00:01,  8.27it/s]
+Animation 41: FadeOut(Mobject), etc.:  36%|###6      | 4/11 [00:00<00:00,  9.10it/s]
+Animation 41: FadeOut(Mobject), etc.:  45%|####5     | 5/11 [00:00<00:00,  9.36it/s]
+Animation 41: FadeOut(Mobject), etc.:  55%|#####4    | 6/11 [00:00<00:00,  9.28it/s]
+Animation 41: FadeOut(Mobject), etc.:  64%|######3   | 7/11 [00:00<00:00,  8.11it/s]
+Animation 41: FadeOut(Mobject), etc.:  73%|#######2  | 8/11 [00:00<00:00,  7.78it/s]
+Animation 41: FadeOut(Mobject), etc.:  82%|########1 | 9/11 [00:01<00:00,  7.83it/s]
+Animation 41: FadeOut(Mobject), etc.:  91%|######### | 10/11 [00:01<00:00,  7.46it/s]
+Animation 41: FadeOut(Mobject), etc.: 100%|##########| 11/11 [00:01<00:00,  7.86it/s]
+[11/04/26 12:51:41] INFO     Animation 41 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00041.mp4'                                     
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                    INFO     Animation 42 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S02_Pipeline\uncach                         
+                             ed_00042.mp4'                                     
+                    INFO     Combining to Movie file.  scene_file_writer.py:753
+                    INFO                               scene_file_writer.py:904
+                             File ready at                                     
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\S02_Pipeline.m                         
+                             p4'                                               
+                                                                               
+                    INFO     Rendered S02_Pipeline                 scene.py:278
+                             Played 43 animations                              
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+=== Rendu S03_Normalisation ===
+Manim Community v0.20.1
+
+[11/04/26 12:51:49] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                     
+
+Animation 0: FadeIn(Text('03')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 0: FadeIn(Text('03')), etc.:  44%|####4     | 8/18 [00:00<00:00, 73.16it/s]
+Animation 0: FadeIn(Text('03')), etc.:  89%|########8 | 16/18 [00:00<00:00, 66.34it/s]
+[11/04/26 12:51:50] INFO     Animation 0 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00000.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                      
+
+Animation 1: FadeIn(Text('Apprendre le contenu, pas le format')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 1: FadeIn(Text('Apprendre le contenu, pas le format')):  33%|###3      | 5/15 [00:00<00:00, 45.22it/s]
+Animation 1: FadeIn(Text('Apprendre le contenu, pas le format')):  73%|#######3  | 11/15 [00:00<00:00, 49.14it/s]
+                    INFO     Animation 1 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00001.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:51:51] INFO     Animation 2 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00002.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                 
+
+Animation 3: FadeOut(VGroup of 3 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects):  20%|##        | 3/15 [00:00<00:00, 23.04it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects):  40%|####      | 6/15 [00:00<00:00, 22.70it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects):  60%|######    | 9/15 [00:00<00:00, 22.87it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects):  80%|########  | 12/15 [00:00<00:00, 20.54it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects): 100%|##########| 15/15 [00:00<00:00, 20.51it/s]
+[11/04/26 12:51:52] INFO     Animation 3 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00003.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                              
+
+Animation 4: FadeIn(Text('03 · Normalisation')):   0%|          | 0/6 [00:00<?, ?it/s]
+Animation 4: FadeIn(Text('03 · Normalisation')):  67%|######6   | 4/6 [00:00<00:00, 33.98it/s]
+[11/04/26 12:51:53] INFO     Animation 4 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00004.mp4'                                
+[11/04/26 12:51:54] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                              
+
+Animation 5: FadeIn(Text('Email brut')), etc.:   0%|          | 0/23 [00:00<?, ?it/s]
+Animation 5: FadeIn(Text('Email brut')), etc.:  17%|#7        | 4/23 [00:00<00:00, 36.42it/s]
+Animation 5: FadeIn(Text('Email brut')), etc.:  35%|###4      | 8/23 [00:00<00:00, 37.03it/s]
+Animation 5: FadeIn(Text('Email brut')), etc.:  52%|#####2    | 12/23 [00:00<00:00, 30.62it/s]
+Animation 5: FadeIn(Text('Email brut')), etc.:  70%|######9   | 16/23 [00:00<00:00, 28.71it/s]
+Animation 5: FadeIn(Text('Email brut')), etc.:  83%|########2 | 19/23 [00:00<00:00, 28.13it/s]
+Animation 5: FadeIn(Text('Email brut')), etc.:  96%|#########5| 22/23 [00:00<00:00, 26.10it/s]
+[11/04/26 12:51:55] INFO     Animation 5 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00005.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                    INFO     Animation 6 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00006.mp4'                                
+[11/04/26 12:51:56] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                              
+
+Animation 7: Transform(Text('Email brut')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 7: Transform(Text('Email brut')), etc.:  11%|#1        | 2/18 [00:00<00:00, 18.20it/s]
+Animation 7: Transform(Text('Email brut')), etc.:  28%|##7       | 5/18 [00:00<00:00, 21.42it/s]
+Animation 7: Transform(Text('Email brut')), etc.:  44%|####4     | 8/18 [00:00<00:00, 22.34it/s]
+Animation 7: Transform(Text('Email brut')), etc.:  61%|######1   | 11/18 [00:00<00:00, 20.86it/s]
+Animation 7: Transform(Text('Email brut')), etc.:  78%|#######7  | 14/18 [00:00<00:00, 21.79it/s]
+Animation 7: Transform(Text('Email brut')), etc.:  94%|#########4| 17/18 [00:00<00:00, 23.12it/s]
+[11/04/26 12:51:57] INFO     Animation 7 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00007.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:51:58] INFO     Animation 8 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00008.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                 
+
+Animation 9: Transform(Text('Email brut')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 9: Transform(Text('Email brut')), etc.:  11%|#1        | 2/18 [00:00<00:00, 16.98it/s]
+Animation 9: Transform(Text('Email brut')), etc.:  28%|##7       | 5/18 [00:00<00:00, 21.19it/s]
+Animation 9: Transform(Text('Email brut')), etc.:  44%|####4     | 8/18 [00:00<00:00, 15.46it/s]
+Animation 9: Transform(Text('Email brut')), etc.:  56%|#####5    | 10/18 [00:00<00:00, 14.86it/s]
+Animation 9: Transform(Text('Email brut')), etc.:  67%|######6   | 12/18 [00:00<00:00, 15.59it/s]
+Animation 9: Transform(Text('Email brut')), etc.:  78%|#######7  | 14/18 [00:00<00:00, 15.40it/s]
+Animation 9: Transform(Text('Email brut')), etc.:  89%|########8 | 16/18 [00:01<00:00, 14.54it/s]
+Animation 9: Transform(Text('Email brut')), etc.: 100%|##########| 18/18 [00:01<00:00, 14.92it/s]
+[11/04/26 12:52:01] INFO     Animation 9 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00009.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                    INFO     Animation 10 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00010.mp4'                                
+[11/04/26 12:52:02] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                 
+
+Animation 11: LaggedStart(Group):   0%|          | 0/21 [00:00<?, ?it/s]
+Animation 11: LaggedStart(Group):  14%|#4        | 3/21 [00:00<00:00, 21.21it/s]
+Animation 11: LaggedStart(Group):  29%|##8       | 6/21 [00:00<00:00, 23.51it/s]
+Animation 11: LaggedStart(Group):  43%|####2     | 9/21 [00:00<00:00, 21.98it/s]
+Animation 11: LaggedStart(Group):  57%|#####7    | 12/21 [00:00<00:00, 19.88it/s]
+Animation 11: LaggedStart(Group):  71%|#######1  | 15/21 [00:00<00:00, 20.14it/s]
+Animation 11: LaggedStart(Group):  86%|########5 | 18/21 [00:00<00:00, 19.66it/s]
+Animation 11: LaggedStart(Group):  95%|#########5| 20/21 [00:01<00:00, 17.85it/s]
+[11/04/26 12:52:04] INFO     Animation 11 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00011.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                 
+
+Animation 12: FadeIn(Text("Une seule fonction normalize(), utilisée à l'entraînement ET en production.")):   0%|       
+   | 0/8 [00:00<?, ?it/s]
+Animation 12: FadeIn(Text("Une seule fonction normalize(), utilisée à l'entraînement ET en production.")):  25%|##5    
+   | 2/8 [00:00<00:00, 14.08it/s]
+Animation 12: FadeIn(Text("Une seule fonction normalize(), utilisée à l'entraînement ET en production.")):  50%|#####  
+   | 4/8 [00:00<00:00, 13.19it/s]
+Animation 12: FadeIn(Text("Une seule fonction normalize(), utilisée à l'entraînement ET en production.")):  
+75%|#######5  | 6/8 [00:00<00:00, 12.56it/s]
+Animation 12: FadeIn(Text("Une seule fonction normalize(), utilisée à l'entraînement ET en production.")): 
+100%|##########| 8/8 [00:00<00:00, 13.55it/s]
+[11/04/26 12:52:06] INFO     Animation 12 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00012.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                    INFO     Animation 13 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00013.mp4'                                
+[11/04/26 12:52:07] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                                 
+
+Animation 14: FadeOut(Mobject), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 14: FadeOut(Mobject), etc.:   9%|9         | 1/11 [00:00<00:02,  4.86it/s]
+Animation 14: FadeOut(Mobject), etc.:  18%|#8        | 2/11 [00:00<00:02,  4.44it/s]
+Animation 14: FadeOut(Mobject), etc.:  27%|##7       | 3/11 [00:00<00:01,  4.99it/s]
+Animation 14: FadeOut(Mobject), etc.:  36%|###6      | 4/11 [00:00<00:01,  5.63it/s]
+Animation 14: FadeOut(Mobject), etc.:  45%|####5     | 5/11 [00:00<00:01,  5.52it/s]
+Animation 14: FadeOut(Mobject), etc.:  55%|#####4    | 6/11 [00:01<00:00,  5.58it/s]
+Animation 14: FadeOut(Mobject), etc.:  64%|######3   | 7/11 [00:01<00:00,  5.15it/s]
+Animation 14: FadeOut(Mobject), etc.:  73%|#######2  | 8/11 [00:01<00:00,  5.82it/s]
+Animation 14: FadeOut(Mobject), etc.:  82%|########1 | 9/11 [00:01<00:00,  5.42it/s]
+Animation 14: FadeOut(Mobject), etc.:  91%|######### | 10/11 [00:01<00:00,  5.85it/s]
+Animation 14: FadeOut(Mobject), etc.: 100%|##########| 11/11 [00:01<00:00,  6.25it/s]
+[11/04/26 12:52:11] INFO     Animation 14 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00014.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                     
+
+Animation 15: FadeIn(Text('Pourquoi ? Le dataset mélange deux formats')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 15: FadeIn(Text('Pourquoi ? Le dataset mélange deux formats')):  20%|##        | 3/15 [00:00<00:00, 
+18.36it/s]
+Animation 15: FadeIn(Text('Pourquoi ? Le dataset mélange deux formats')):  33%|###3      | 5/15 [00:00<00:00, 
+14.94it/s]
+Animation 15: FadeIn(Text('Pourquoi ? Le dataset mélange deux formats')):  47%|####6     | 7/15 [00:00<00:00, 
+15.36it/s]
+Animation 15: FadeIn(Text('Pourquoi ? Le dataset mélange deux formats')):  60%|######    | 9/15 [00:00<00:00, 
+16.09it/s]
+Animation 15: FadeIn(Text('Pourquoi ? Le dataset mélange deux formats')):  73%|#######3  | 11/15 [00:00<00:00, 
+14.71it/s]
+Animation 15: FadeIn(Text('Pourquoi ? Le dataset mélange deux formats')):  87%|########6 | 13/15 [00:00<00:00, 
+15.21it/s]
+Animation 15: FadeIn(Text('Pourquoi ? Le dataset mélange deux formats')): 100%|##########| 15/15 [00:00<00:00, 
+16.39it/s]
+[11/04/26 12:52:12] INFO     Animation 15 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00015.mp4'                                
+[11/04/26 12:52:13] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+  
+
+Animation 16: FadeIn(Text('Part des emails contenant des majuscules (mesuré sur le dataset brut)')), etc.:   0%|       
+   | 0/15 [00:00<?, ?it/s]
+Animation 16: FadeIn(Text('Part des emails contenant des majuscules (mesuré sur le dataset brut)')), etc.:  20%|##     
+   | 3/15 [00:00<00:00, 19.86it/s]
+Animation 16: FadeIn(Text('Part des emails contenant des majuscules (mesuré sur le dataset brut)')), etc.:  33%|###3   
+   | 5/15 [00:00<00:00, 18.24it/s]
+Animation 16: FadeIn(Text('Part des emails contenant des majuscules (mesuré sur le dataset brut)')), etc.:  53%|#####3 
+   | 8/15 [00:00<00:00, 21.80it/s]
+Animation 16: FadeIn(Text('Part des emails contenant des majuscules (mesuré sur le dataset brut)')), etc.:  
+80%|########  | 12/15 [00:00<00:00, 25.54it/s]
+Animation 16: FadeIn(Text('Part des emails contenant des majuscules (mesuré sur le dataset brut)')), etc.: 
+100%|##########| 15/15 [00:00<00:00, 22.07it/s]
+[11/04/26 12:52:15] INFO     Animation 16 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00016.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                                   
+
+Animation 17: GrowFromEdge(Rectangle), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 17: GrowFromEdge(Rectangle), etc.:  27%|##6       | 4/15 [00:00<00:00, 34.80it/s]
+Animation 17: GrowFromEdge(Rectangle), etc.:  53%|#####3    | 8/15 [00:00<00:00, 28.09it/s]
+Animation 17: GrowFromEdge(Rectangle), etc.:  73%|#######3  | 11/15 [00:00<00:00, 26.19it/s]
+Animation 17: GrowFromEdge(Rectangle), etc.:  93%|#########3| 14/15 [00:00<00:00, 22.11it/s]
+[11/04/26 12:52:16] INFO     Animation 17 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00017.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                            
+
+Animation 18: FadeIn(Text('34,9 %')), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 18: FadeIn(Text('34,9 %')), etc.:  33%|###3      | 5/15 [00:00<00:00, 41.62it/s]
+Animation 18: FadeIn(Text('34,9 %')), etc.:  67%|######6   | 10/15 [00:00<00:00, 44.73it/s]
+                    INFO     Animation 18 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00018.mp4'                                
+[11/04/26 12:52:17] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                           
+
+Animation 19: FadeIn(Text('Sans normalisation, le modèle pourrait apprendre « majuscules = email sûr ».')):   0%|      
+    | 0/8 [00:00<?, ?it/s]
+Animation 19: FadeIn(Text('Sans normalisation, le modèle pourrait apprendre « majuscules = email sûr ».')):  25%|##5   
+    | 2/8 [00:00<00:00, 17.03it/s]
+Animation 19: FadeIn(Text('Sans normalisation, le modèle pourrait apprendre « majuscules = email sûr ».')):  50%|##### 
+    | 4/8 [00:00<00:00, 18.25it/s]
+Animation 19: FadeIn(Text('Sans normalisation, le modèle pourrait apprendre « majuscules = email sûr ».')):  
+75%|#######5  | 6/8 [00:00<00:00, 14.75it/s]
+Animation 19: FadeIn(Text('Sans normalisation, le modèle pourrait apprendre « majuscules = email sûr ».')): 
+100%|##########| 8/8 [00:00<00:00, 15.17it/s]
+[11/04/26 12:52:18] INFO     Animation 19 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00019.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:52:19] INFO     Animation 20 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00020.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                                  
+
+Animation 21: FadeOut(Text('Sans normalisation, le modèle pourrait apprendre « majuscules = email sûr ».')), etc.:   
+0%|          | 0/8 [00:00<?, ?it/s]
+Animation 21: FadeOut(Text('Sans normalisation, le modèle pourrait apprendre « majuscules = email sûr ».')), etc.:  
+25%|##5       | 2/8 [00:00<00:00, 14.04it/s]
+Animation 21: FadeOut(Text('Sans normalisation, le modèle pourrait apprendre « majuscules = email sûr ».')), etc.:  
+50%|#####     | 4/8 [00:00<00:00, 14.31it/s]
+Animation 21: FadeOut(Text('Sans normalisation, le modèle pourrait apprendre « majuscules = email sûr ».')), etc.:  
+75%|#######5  | 6/8 [00:00<00:00, 13.41it/s]
+Animation 21: FadeOut(Text('Sans normalisation, le modèle pourrait apprendre « majuscules = email sûr ».')), etc.: 
+100%|##########| 8/8 [00:00<00:00, 11.57it/s]
+[11/04/26 12:52:21] INFO     Animation 21 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00021.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:52:22] INFO     Animation 22 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00022.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                                         
+
+Animation 23: FadeOut(Text('03 · Normalisation')), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 23: FadeOut(Text('03 · Normalisation')), etc.:   9%|9         | 1/11 [00:00<00:01,  6.23it/s]
+Animation 23: FadeOut(Text('03 · Normalisation')), etc.:  18%|#8        | 2/11 [00:00<00:01,  6.85it/s]
+Animation 23: FadeOut(Text('03 · Normalisation')), etc.:  27%|##7       | 3/11 [00:00<00:01,  7.56it/s]
+Animation 23: FadeOut(Text('03 · Normalisation')), etc.:  36%|###6      | 4/11 [00:00<00:01,  6.61it/s]
+Animation 23: FadeOut(Text('03 · Normalisation')), etc.:  45%|####5     | 5/11 [00:00<00:00,  6.39it/s]
+Animation 23: FadeOut(Text('03 · Normalisation')), etc.:  55%|#####4    | 6/11 [00:00<00:00,  6.80it/s]
+Animation 23: FadeOut(Text('03 · Normalisation')), etc.:  64%|######3   | 7/11 [00:01<00:00,  7.35it/s]
+Animation 23: FadeOut(Text('03 · Normalisation')), etc.:  73%|#######2  | 8/11 [00:01<00:00,  7.32it/s]
+Animation 23: FadeOut(Text('03 · Normalisation')), etc.:  82%|########1 | 9/11 [00:01<00:00,  7.15it/s]
+Animation 23: FadeOut(Text('03 · Normalisation')), etc.:  91%|######### | 10/11 [00:01<00:00,  7.26it/s]
+Animation 23: FadeOut(Text('03 · Normalisation')), etc.: 100%|##########| 11/11 [00:01<00:00,  6.99it/s]
+[11/04/26 12:52:26] INFO     Animation 23 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00023.mp4'                                
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                    INFO     Animation 24 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S03_Normalisation\u                         
+                             ncached_00024.mp4'                                
+                    INFO     Combining to Movie file.  scene_file_writer.py:753
+                    INFO                               scene_file_writer.py:904
+                             File ready at                                     
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\S03_Normalisat                         
+                             ion.mp4'                                          
+                                                                               
+                    INFO     Rendered S03_Normalisation            scene.py:278
+                             Played 25 animations                              
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+=== Rendu S05_Embeddings ===
+Manim Community v0.20.1
+
+[11/04/26 12:52:44] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                        
+
+Animation 0: FadeIn(Text('05')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 0: FadeIn(Text('05')), etc.:  56%|#####5    | 10/18 [00:00<00:00, 93.24it/s]
+                    INFO     Animation 0 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00000.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                      
+
+Animation 1: FadeIn(Text('Chaque token devient un vecteur de 128 nombres')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 1: FadeIn(Text('Chaque token devient un vecteur de 128 nombres')):  27%|##6       | 4/15 [00:00<00:00, 
+31.55it/s]
+Animation 1: FadeIn(Text('Chaque token devient un vecteur de 128 nombres')):  53%|#####3    | 8/15 [00:00<00:00, 
+24.86it/s]
+Animation 1: FadeIn(Text('Chaque token devient un vecteur de 128 nombres')):  73%|#######3  | 11/15 [00:00<00:00, 
+25.39it/s]
+Animation 1: FadeIn(Text('Chaque token devient un vecteur de 128 nombres')):  93%|#########3| 14/15 [00:00<00:00, 
+24.26it/s]
+[11/04/26 12:52:45] INFO     Animation 1 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00001.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                    INFO     Animation 2 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00002.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+     
+
+Animation 3: FadeOut(VGroup of 3 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects):  20%|##        | 3/15 [00:00<00:00, 21.83it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects):  40%|####      | 6/15 [00:00<00:00, 15.40it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects):  60%|######    | 9/15 [00:00<00:00, 17.36it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects):  80%|########  | 12/15 [00:00<00:00, 18.52it/s]
+Animation 3: FadeOut(VGroup of 3 submobjects): 100%|##########| 15/15 [00:00<00:00, 20.69it/s]
+[11/04/26 12:52:47] INFO     Animation 3 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00003.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                              
+
+Animation 4: FadeIn(Text('05 · Embeddings')):   0%|          | 0/6 [00:00<?, ?it/s]
+[11/04/26 12:52:48] INFO     Animation 4 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00004.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                   
+
+Animation 5: FadeIn(VGroup of 2 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 5: FadeIn(VGroup of 2 submobjects):  60%|######    | 9/15 [00:00<00:00, 84.89it/s]
+                    INFO     Animation 5 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00005.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                            
+
+Animation 6: TransformFromCopy(VGroup of 2 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 6: TransformFromCopy(VGroup of 2 submobjects):  33%|###3      | 5/15 [00:00<00:00, 46.01it/s]
+Animation 6: TransformFromCopy(VGroup of 2 submobjects):  80%|########  | 12/15 [00:00<00:00, 57.83it/s]
+[11/04/26 12:52:49] INFO     Animation 6 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00006.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                        
+
+Animation 7: FadeIn(VGroup of 10 submobjects), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 7: FadeIn(VGroup of 10 submobjects), etc.:  13%|#3        | 2/15 [00:00<00:00, 18.24it/s]
+Animation 7: FadeIn(VGroup of 10 submobjects), etc.:  27%|##6       | 4/15 [00:00<00:00, 15.68it/s]
+Animation 7: FadeIn(VGroup of 10 submobjects), etc.:  40%|####      | 6/15 [00:00<00:00, 13.39it/s]
+Animation 7: FadeIn(VGroup of 10 submobjects), etc.:  53%|#####3    | 8/15 [00:00<00:00, 12.23it/s]
+Animation 7: FadeIn(VGroup of 10 submobjects), etc.:  67%|######6   | 10/15 [00:00<00:00, 13.28it/s]
+Animation 7: FadeIn(VGroup of 10 submobjects), etc.:  87%|########6 | 13/15 [00:00<00:00, 16.15it/s]
+Animation 7: FadeIn(VGroup of 10 submobjects), etc.: 100%|##########| 15/15 [00:01<00:00, 15.68it/s]
+[11/04/26 12:52:51] INFO     Animation 7 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00007.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                    
+
+Animation 8: GrowArrow(Arrow), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+                    INFO     Animation 8 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00008.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                           
+
+Animation 9: FadeIn(Text("L'id sert simplement de numéro de ligne dans une grande table.")):   0%|          | 0/8 
+[00:00<?, ?it/s]
+Animation 9: FadeIn(Text("L'id sert simplement de numéro de ligne dans une grande table.")):  25%|##5       | 2/8 
+[00:00<00:00, 18.67it/s]
+Animation 9: FadeIn(Text("L'id sert simplement de numéro de ligne dans une grande table.")):  62%|######2   | 5/8 
+[00:00<00:00, 22.91it/s]
+Animation 9: FadeIn(Text("L'id sert simplement de numéro de ligne dans une grande table.")): 100%|##########| 8/8 
+[00:00<00:00, 21.59it/s]
+[11/04/26 12:52:52] INFO     Animation 9 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00009.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:52:53] INFO     Animation 10 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00010.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                   
+
+Animation 11: _MethodAnimation(VGroup of 12 submobjects):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 11: _MethodAnimation(VGroup of 12 submobjects):  53%|#####3    | 8/15 [00:00<00:00, 73.66it/s]
+                    INFO     Animation 11 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00011.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                        
+
+Animation 12: FadeIn(Text('token')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 12: FadeIn(Text('token')):  87%|########6 | 13/15 [00:00<00:00, 122.74it/s]
+[11/04/26 12:52:54] INFO     Animation 12 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00012.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                     
+
+Animation 13: FadeIn(Text('+')), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 13: FadeIn(Text('+')), etc.:  53%|#####3    | 8/15 [00:00<00:00, 71.97it/s]
+                    INFO     Animation 13 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00013.mp4'                                   
+[11/04/26 12:52:55] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                     
+
+Animation 14: FadeOut(Text("L'id sert simplement de numéro de ligne dans une grande table.")), etc.:   0%|          | 
+0/8 [00:00<?, ?it/s]
+Animation 14: FadeOut(Text("L'id sert simplement de numéro de ligne dans une grande table.")), etc.:  12%|#2        | 
+1/8 [00:00<00:00,  8.81it/s]
+Animation 14: FadeOut(Text("L'id sert simplement de numéro de ligne dans une grande table.")), etc.:  25%|##5       | 
+2/8 [00:00<00:01,  5.11it/s]
+Animation 14: FadeOut(Text("L'id sert simplement de numéro de ligne dans une grande table.")), etc.:  38%|###7      | 
+3/8 [00:00<00:00,  5.98it/s]
+Animation 14: FadeOut(Text("L'id sert simplement de numéro de ligne dans une grande table.")), etc.:  50%|#####     | 
+4/8 [00:00<00:00,  6.52it/s]
+Animation 14: FadeOut(Text("L'id sert simplement de numéro de ligne dans une grande table.")), etc.:  62%|######2   | 
+5/8 [00:00<00:00,  7.22it/s]
+Animation 14: FadeOut(Text("L'id sert simplement de numéro de ligne dans une grande table.")), etc.:  75%|#######5  | 
+6/8 [00:00<00:00,  7.45it/s]
+Animation 14: FadeOut(Text("L'id sert simplement de numéro de ligne dans une grande table.")), etc.:  88%|########7 | 
+7/8 [00:00<00:00,  7.59it/s]
+Animation 14: FadeOut(Text("L'id sert simplement de numéro de ligne dans une grande table.")), etc.: 100%|##########| 
+8/8 [00:01<00:00,  7.44it/s]
+[11/04/26 12:52:58] INFO     Animation 14 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00014.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:52:59] INFO     Animation 15 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00015.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                           
+
+Animation 16: FadeIn(Text('=')), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 16: FadeIn(Text('=')), etc.:  13%|#3        | 2/15 [00:00<00:00, 16.32it/s]
+Animation 16: FadeIn(Text('=')), etc.:  27%|##6       | 4/15 [00:00<00:00, 13.43it/s]
+Animation 16: FadeIn(Text('=')), etc.:  40%|####      | 6/15 [00:00<00:00, 15.06it/s]
+Animation 16: FadeIn(Text('=')), etc.:  53%|#####3    | 8/15 [00:00<00:00, 15.17it/s]
+Animation 16: FadeIn(Text('=')), etc.:  67%|######6   | 10/15 [00:00<00:00, 13.89it/s]
+Animation 16: FadeIn(Text('=')), etc.:  80%|########  | 12/15 [00:00<00:00, 14.26it/s]
+Animation 16: FadeIn(Text('=')), etc.:  93%|#########3| 14/15 [00:01<00:00, 13.13it/s]
+[11/04/26 12:53:00] INFO     Animation 16 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00016.mp4'                                   
+[11/04/26 12:53:01] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                      
+
+Animation 17: FadeOut(Text("On ajoute un vecteur de position (table 256 × 128) : sinon l'ordre des mots serait 
+perdu.")), etc.:   0%|          | 0/8 [00:00<?, ?it/s]
+Animation 17: FadeOut(Text("On ajoute un vecteur de position (table 256 × 128) : sinon l'ordre des mots serait 
+perdu.")), etc.:  25%|##5       | 2/8 [00:00<00:00,  9.25it/s]
+Animation 17: FadeOut(Text("On ajoute un vecteur de position (table 256 × 128) : sinon l'ordre des mots serait 
+perdu.")), etc.:  38%|###7      | 3/8 [00:00<00:00,  9.17it/s]
+Animation 17: FadeOut(Text("On ajoute un vecteur de position (table 256 × 128) : sinon l'ordre des mots serait 
+perdu.")), etc.:  62%|######2   | 5/8 [00:00<00:00, 10.09it/s]
+Animation 17: FadeOut(Text("On ajoute un vecteur de position (table 256 × 128) : sinon l'ordre des mots serait 
+perdu.")), etc.:  88%|########7 | 7/8 [00:00<00:00,  9.62it/s]
+Animation 17: FadeOut(Text("On ajoute un vecteur de position (table 256 × 128) : sinon l'ordre des mots serait 
+perdu.")), etc.: 100%|##########| 8/8 [00:00<00:00,  8.77it/s]
+[11/04/26 12:53:03] INFO     Animation 17 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00017.mp4'                                   
+[11/04/26 12:53:04] INFO     Caching disabled.             cairo_renderer.py:83
+                    INFO     Animation 18 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00018.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                                                      
+
+Animation 19: FadeOut(Mobject), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 19: FadeOut(Mobject), etc.:   9%|9         | 1/11 [00:00<00:01,  6.84it/s]
+Animation 19: FadeOut(Mobject), etc.:  18%|#8        | 2/11 [00:00<00:01,  5.98it/s]
+Animation 19: FadeOut(Mobject), etc.:  27%|##7       | 3/11 [00:00<00:01,  6.67it/s]
+Animation 19: FadeOut(Mobject), etc.:  36%|###6      | 4/11 [00:00<00:00,  7.01it/s]
+Animation 19: FadeOut(Mobject), etc.:  45%|####5     | 5/11 [00:00<00:00,  7.08it/s]
+Animation 19: FadeOut(Mobject), etc.:  55%|#####4    | 6/11 [00:00<00:00,  6.51it/s]
+Animation 19: FadeOut(Mobject), etc.:  64%|######3   | 7/11 [00:01<00:00,  6.02it/s]
+Animation 19: FadeOut(Mobject), etc.:  73%|#######2  | 8/11 [00:01<00:00,  5.77it/s]
+Animation 19: FadeOut(Mobject), etc.:  82%|########1 | 9/11 [00:01<00:00,  5.94it/s]
+Animation 19: FadeOut(Mobject), etc.:  91%|######### | 10/11 [00:01<00:00,  5.98it/s]
+Animation 19: FadeOut(Mobject), etc.: 100%|##########| 11/11 [00:01<00:00,  6.38it/s]
+[11/04/26 12:53:08] INFO     Animation 19 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00019.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                     
+
+Animation 20: FadeIn(VGroup of 12 submobjects), etc.:   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 20: FadeIn(VGroup of 12 submobjects), etc.:  13%|#3        | 2/15 [00:00<00:00, 18.72it/s]
+Animation 20: FadeIn(VGroup of 12 submobjects), etc.:  27%|##6       | 4/15 [00:00<00:00, 18.49it/s]
+Animation 20: FadeIn(VGroup of 12 submobjects), etc.:  40%|####      | 6/15 [00:00<00:00, 15.76it/s]
+Animation 20: FadeIn(VGroup of 12 submobjects), etc.:  53%|#####3    | 8/15 [00:00<00:00, 16.27it/s]
+Animation 20: FadeIn(VGroup of 12 submobjects), etc.:  67%|######6   | 10/15 [00:00<00:00, 17.32it/s]
+Animation 20: FadeIn(VGroup of 12 submobjects), etc.:  80%|########  | 12/15 [00:00<00:00, 17.87it/s]
+Animation 20: FadeIn(VGroup of 12 submobjects), etc.:  93%|#########3| 14/15 [00:00<00:00, 16.49it/s]
+[11/04/26 12:53:10] INFO     Animation 20 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00020.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                     
+
+Animation 21: LaggedStart(Group), etc.:   0%|          | 0/23 [00:00<?, ?it/s]
+Animation 21: LaggedStart(Group), etc.:  17%|#7        | 4/23 [00:00<00:00, 34.97it/s]
+Animation 21: LaggedStart(Group), etc.:  39%|###9      | 9/23 [00:00<00:00, 42.11it/s]
+Animation 21: LaggedStart(Group), etc.:  65%|######5   | 15/23 [00:00<00:00, 47.64it/s]
+Animation 21: LaggedStart(Group), etc.:  87%|########6 | 20/23 [00:00<00:00, 47.82it/s]
+[11/04/26 12:53:11] INFO     Animation 21 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00021.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                       
+
+Animation 22: Write(Text('(32, 256, 128)')):   0%|          | 0/15 [00:00<?, ?it/s]
+Animation 22: Write(Text('(32, 256, 128)')):  73%|#######3  | 11/15 [00:00<00:00, 87.98it/s]
+                    INFO     Animation 22 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00022.mp4'                                   
+[11/04/26 12:53:12] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                            
+
+Animation 23: FadeIn(Text('Le Transformer reçoit un tenseur : 32 emails × 256 tokens × 128 nombres.')):   0%|          
+| 0/8 [00:00<?, ?it/s]
+Animation 23: FadeIn(Text('Le Transformer reçoit un tenseur : 32 emails × 256 tokens × 128 nombres.')):  38%|###7      
+| 3/8 [00:00<00:00, 26.13it/s]
+Animation 23: FadeIn(Text('Le Transformer reçoit un tenseur : 32 emails × 256 tokens × 128 nombres.')):  75%|#######5  
+| 6/8 [00:00<00:00, 18.79it/s]
+[11/04/26 12:53:13] INFO     Animation 23 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00023.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:53:14] INFO     Animation 24 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00024.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                              
+
+Animation 25: FadeOut(VGroup of 12 submobjects), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 25: FadeOut(VGroup of 12 submobjects), etc.:   9%|9         | 1/11 [00:00<00:01,  6.67it/s]
+Animation 25: FadeOut(VGroup of 12 submobjects), etc.:  18%|#8        | 2/11 [00:00<00:01,  7.42it/s]
+Animation 25: FadeOut(VGroup of 12 submobjects), etc.:  27%|##7       | 3/11 [00:00<00:01,  7.07it/s]
+Animation 25: FadeOut(VGroup of 12 submobjects), etc.:  36%|###6      | 4/11 [00:00<00:00,  7.70it/s]
+Animation 25: FadeOut(VGroup of 12 submobjects), etc.:  45%|####5     | 5/11 [00:00<00:00,  7.75it/s]
+Animation 25: FadeOut(VGroup of 12 submobjects), etc.:  55%|#####4    | 6/11 [00:00<00:00,  8.04it/s]
+Animation 25: FadeOut(VGroup of 12 submobjects), etc.:  64%|######3   | 7/11 [00:00<00:00,  6.97it/s]
+Animation 25: FadeOut(VGroup of 12 submobjects), etc.:  73%|#######2  | 8/11 [00:01<00:00,  6.74it/s]
+Animation 25: FadeOut(VGroup of 12 submobjects), etc.:  82%|########1 | 9/11 [00:01<00:00,  6.97it/s]
+Animation 25: FadeOut(VGroup of 12 submobjects), etc.:  91%|######### | 10/11 [00:01<00:00,  7.04it/s]
+Animation 25: FadeOut(VGroup of 12 submobjects), etc.: 100%|##########| 11/11 [00:01<00:00,  6.97it/s]
+[11/04/26 12:53:17] INFO     Animation 25 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00025.mp4'                                   
+[11/04/26 12:53:18] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                      
+
+Animation 26: FadeIn(Text('Intuition : des sens proches, des vecteurs proches')), etc.:   0%|          | 0/18 
+[00:00<?, ?it/s]
+Animation 26: FadeIn(Text('Intuition : des sens proches, des vecteurs proches')), etc.:  22%|##2       | 4/18 
+[00:00<00:00, 29.69it/s]
+Animation 26: FadeIn(Text('Intuition : des sens proches, des vecteurs proches')), etc.:  39%|###8      | 7/18 
+[00:00<00:00, 22.99it/s]
+Animation 26: FadeIn(Text('Intuition : des sens proches, des vecteurs proches')), etc.:  56%|#####5    | 10/18 
+[00:00<00:00, 22.44it/s]
+Animation 26: FadeIn(Text('Intuition : des sens proches, des vecteurs proches')), etc.:  78%|#######7  | 14/18 
+[00:00<00:00, 27.52it/s]
+Animation 26: FadeIn(Text('Intuition : des sens proches, des vecteurs proches')), etc.: 100%|##########| 18/18 
+[00:00<00:00, 31.30it/s]
+[11/04/26 12:53:19] INFO     Animation 26 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00026.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                
+
+Animation 27: LaggedStart(Group):   0%|          | 0/27 [00:00<?, ?it/s]
+Animation 27: LaggedStart(Group):  11%|#1        | 3/27 [00:00<00:01, 21.78it/s]
+Animation 27: LaggedStart(Group):  22%|##2       | 6/27 [00:00<00:01, 15.57it/s]
+Animation 27: LaggedStart(Group):  30%|##9       | 8/27 [00:00<00:01, 14.16it/s]
+Animation 27: LaggedStart(Group):  37%|###7      | 10/27 [00:00<00:01, 15.46it/s]
+Animation 27: LaggedStart(Group):  44%|####4     | 12/27 [00:00<00:00, 16.00it/s]
+Animation 27: LaggedStart(Group):  56%|#####5    | 15/27 [00:00<00:00, 17.33it/s]
+Animation 27: LaggedStart(Group):  63%|######2   | 17/27 [00:01<00:00, 14.78it/s]
+Animation 27: LaggedStart(Group):  74%|#######4  | 20/27 [00:01<00:00, 16.37it/s]
+Animation 27: LaggedStart(Group):  85%|########5 | 23/27 [00:01<00:00, 18.31it/s]
+Animation 27: LaggedStart(Group):  93%|#########2| 25/27 [00:01<00:00, 17.65it/s]
+Animation 27: LaggedStart(Group): 100%|##########| 27/27 [00:01<00:00, 16.87it/s]
+[11/04/26 12:53:22] INFO     Animation 27 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00027.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                 
+
+Animation 28: FadeIn(Text("projection 2D illustrative d'un espace à 128 dimensions")):   0%|          | 0/15 [00:00<?, 
+?it/s]
+Animation 28: FadeIn(Text("projection 2D illustrative d'un espace à 128 dimensions")):  20%|##        | 3/15 
+[00:00<00:00, 25.03it/s]
+Animation 28: FadeIn(Text("projection 2D illustrative d'un espace à 128 dimensions")):  40%|####      | 6/15 
+[00:00<00:00, 25.30it/s]
+Animation 28: FadeIn(Text("projection 2D illustrative d'un espace à 128 dimensions")):  60%|######    | 9/15 
+[00:00<00:00, 21.12it/s]
+Animation 28: FadeIn(Text("projection 2D illustrative d'un espace à 128 dimensions")):  80%|########  | 12/15 
+[00:00<00:00, 20.40it/s]
+Animation 28: FadeIn(Text("projection 2D illustrative d'un espace à 128 dimensions")): 100%|##########| 15/15 
+[00:00<00:00, 22.08it/s]
+[11/04/26 12:53:23] INFO     Animation 28 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00028.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+               
+
+Animation 29: FadeIn(Text("Les mots utiles à la même décision finissent regroupés dans l'espace.")):   0%|          | 
+0/8 [00:00<?, ?it/s]
+Animation 29: FadeIn(Text("Les mots utiles à la même décision finissent regroupés dans l'espace.")):  38%|###7      | 
+3/8 [00:00<00:00, 26.78it/s]
+Animation 29: FadeIn(Text("Les mots utiles à la même décision finissent regroupés dans l'espace.")):  75%|#######5  | 
+6/8 [00:00<00:00, 28.14it/s]
+[11/04/26 12:53:24] INFO     Animation 29 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00029.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+[11/04/26 12:53:25] INFO     Animation 30 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00030.mp4'                                   
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                                       
+                           
+
+Animation 31: FadeOut(Text('05 · Embeddings')), etc.:   0%|          | 0/11 [00:00<?, ?it/s]
+Animation 31: FadeOut(Text('05 · Embeddings')), etc.:  18%|#8        | 2/11 [00:00<00:01,  7.94it/s]
+Animation 31: FadeOut(Text('05 · Embeddings')), etc.:  27%|##7       | 3/11 [00:00<00:01,  7.69it/s]
+Animation 31: FadeOut(Text('05 · Embeddings')), etc.:  36%|###6      | 4/11 [00:00<00:00,  7.78it/s]
+Animation 31: FadeOut(Text('05 · Embeddings')), etc.:  45%|####5     | 5/11 [00:00<00:00,  7.95it/s]
+Animation 31: FadeOut(Text('05 · Embeddings')), etc.:  55%|#####4    | 6/11 [00:00<00:00,  7.88it/s]
+Animation 31: FadeOut(Text('05 · Embeddings')), etc.:  64%|######3   | 7/11 [00:00<00:00,  7.89it/s]
+Animation 31: FadeOut(Text('05 · Embeddings')), etc.:  73%|#######2  | 8/11 [00:01<00:00,  8.01it/s]
+Animation 31: FadeOut(Text('05 · Embeddings')), etc.:  82%|########1 | 9/11 [00:01<00:00,  6.77it/s]
+Animation 31: FadeOut(Text('05 · Embeddings')), etc.:  91%|######### | 10/11 [00:01<00:00,  5.73it/s]
+Animation 31: FadeOut(Text('05 · Embeddings')), etc.: 100%|##########| 11/11 [00:01<00:00,  4.80it/s]
+[11/04/26 12:53:29] INFO     Animation 31 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00031.mp4'                                   
+[11/04/26 12:53:30] INFO     Caching disabled.             cairo_renderer.py:83
+                    INFO     Animation 32 : Partial    scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S05_Embeddings\unca                         
+                             ched_00032.mp4'                                   
+                    INFO     Combining to Movie file.  scene_file_writer.py:753
+                    INFO                               scene_file_writer.py:904
+                             File ready at                                     
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\S05_Embeddings                         
+                             .mp4'                                             
+                                                                               
+                    INFO     Rendered S05_Embeddings               scene.py:278
+                             Played 33 animations                              
+You are using manim version v0.20.1, but version v0.22.1 is available.
+You should consider upgrading via pip install -U manim
+=== Rendu S06_Attention ===
+Manim Community v0.20.1
+
+[11/04/26 12:53:37] INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                                     
+
+Animation 0: FadeIn(Text('06')), etc.:   0%|          | 0/18 [00:00<?, ?it/s]
+Animation 0: FadeIn(Text('06')), etc.:  28%|##7       | 5/18 [00:00<00:00, 47.95it/s]
+Animation 0: FadeIn(Text('06')), etc.:  56%|#####5    | 10/18 [00:00<00:00, 41.58it/s]
+Animation 0: FadeIn(Text('06')), etc.:  83%|########3 | 15/18 [00:00<00:00, 41.59it/s]
+[11/04/26 12:53:38] INFO     Animation 0 : Partial     scene_file_writer.py:601
+                             movie file written in                             
+                             'C:\Users\Ce                                      
+                             pc\Desktop\amon_folder\ph                         
+                             ishing_detector\video\med                         
+                             ia\videos\phishing_explai                         
+                             ner\480p15\partial_movie_                         
+                             files\S06_Attention\uncac                         
+                             hed_00000.mp4'                                    
+                    INFO     Caching disabled.             cairo_renderer.py:83
+                                                                                      

@@ -1,0 +1,11 @@
+﻿heure,aperçu,P(phishing),seuil,verdict,latence (ms),tokens,Normalisation du texte (ms),Tokenisation BPE (ms),Features structurelles (ms),Réseau de neurones (ms),Sigmoïde + décision (ms)
+15:43:30,Security alert: unusual activity detected on your account. Please veri…,0.9992,0.881,PHISHING,43.13,26,0.085,0.859,0.572,41.557,0.052
+15:43:43,Security alert: unusual activity detected on your account. Please veri…,0.9992,0.535,PHISHING,20.6,26,0.052,0.293,0.278,19.958,0.024
+15:44:20,Your Apple ID has been locked for security reasons. Login to unlock: h…,0.9436,0.881,PHISHING,21.62,26,0.055,0.417,0.304,20.82,0.027
+15:46:17,"Dear Customer,  We have detected unusual activity on your bank account…",0.9992,0.881,PHISHING,33.7,50,0.072,7.499,0.934,25.147,0.043
+15:48:07,"Congratulations! You have won $1,000,000 in our international lottery.…",0.9993,0.881,PHISHING,41.22,37,0.079,3.312,1.006,36.798,0.03
+15:48:30,"Dear Lucky Winner,  Congratulations! Your email address has been rando…",0.9993,0.881,PHISHING,52.44,58,0.147,8.078,1.191,42.836,0.189
+15:49:17,"Dear Account Holder,  As part of our ongoing commitment to protecting …",0.9992,0.881,PHISHING,40.01,77,0.257,4.687,0.826,34.206,0.029
+15:50:12,"Dear Customer,  Your recent transaction of $125.00 was successfully pr…",0.9986,0.881,PHISHING,34.47,73,0.209,5.775,0.541,27.79,0.154
+15:53:30,"Hello everyone, the newsletter for this week is ready. You can read it…",0.4374,0.881,légitime,28.68,29,0.115,1.977,0.679,25.879,0.035
+15:54:24,"Hi Anna, the new security policy is now available on the intranet. Bes…",0.799,0.881,légitime,34.55,20,0.047,0.621,0.373,33.466,0.044
